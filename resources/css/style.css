@@ -1,11 +1,19 @@
 body {
+  background-image:-webkit-linear-gradient(60deg,rgba(218, 169, 215, 0.637),rgba(128, 174, 235, 0.904));
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
   margin: 0;
   padding: 0;
 }
 
 .main-container {
-  background-color: #000;
-  color: #eee;
+  color: #000;
   width: 100%;
   height: 100vh;
 }
@@ -35,7 +43,6 @@ body {
 
 .content-container .links a {
   display: block;
-  color: #eee;
   margin: 10px 0;
   padding: 10px 0;
   font-size: 80px;
