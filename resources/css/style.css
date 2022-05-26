@@ -4,75 +4,48 @@ body {
 }
 
 .main-container {
-  background-color: #090a0a;
-  color: #c3baaf;
-  width: 100%;
-  height: 100vh;
+  background-color: #fff;
+  color: #000;
   position: fixed;
   top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: auto;
 }
 
 .brand-container {
-  font-family: 'Tiro Tamil', serif;
-  margin: -20px 0 -30px 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  width: 100%;
+  margin: 10px;
 }
 
 .brand-container h1 {
-  font-size: 120px;
-  font-style: italic;
+  font-size: 80px;
 }
 
 .content-container {
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  margin: 0 auto;
 }
 
 .links a {
+  text-align: center;
   display: inline-block;
   color: #090a0a;
   margin: 10px;
   padding: 10px 20px;
-  background-color: #c3baaf;
+  background-color: #000;
   font-size: 24px;
   font-family: 'Roboto Mono', monospace;
   font-weight: bold;
   text-decoration: none;
-  box-shadow: 5px 5px #b8f1b0;
+  box-shadow: 5px 5px #14C38E;
   transition: box-shadow 100ms;
 }
 
 .links a:hover {
-  box-shadow: 10px 10px #b8f1b0;
-}
-
-.quote-container {
-  font-family: 'Tiro Tamil', serif;
-  text-align: left;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  margin: -30px 30px 20px 0;
-}
-
-.quote-container #cursive {
-  font-family: inherit;
-  font-style: italic;
-}
-
-.quote-container h3 {
-  font-size: 40px;
-}
-
-.quote-container h4 {
-  font-size: 24px;
-  text-align: right;
-  font-weight: normal;
-  font-style: italic;
-  margin: -50px 0 0 0;
+  box-shadow: 10px 10px #14C38E;
 }
 
 img {
