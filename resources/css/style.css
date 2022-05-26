@@ -1,19 +1,10 @@
 body {
-  background-image:-webkit-linear-gradient(60deg,rgba(218, 169, 215, 0.637),rgba(128, 174, 235, 0.904));
-  background-position: center 0;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  -moz-background-size: cover;
-  -ms-background-size: cover;
   margin: 0;
   padding: 0;
 }
 
 .main-container {
-  color: #000;
+  color: #fff;
   width: 100%;
   height: 100vh;
 }
@@ -21,35 +12,28 @@ body {
 .brand-container {
   font-family: sans-serif;
   font-weight: bolder;
-  font-size: 70px;
-  width: 100%;
-  margin: -10px 0 -10px 10px;
+  background-color: black;
+  color: #fff;
+  display: inline-block;
+  border-radius: 50px;
 }
 
-.brand-container h1 {
-  font-size: 50px;
-}
-
-.slogan-container {
-  font-family: sans-serif;
-  font-weight: bold;
-  width: 100%;
-  margin: -10px 0 -10px 10px;
-}
-
-.content-container {
-  width: 100%;
-}
-
-.content-container .links a {
-  display: block;
-  margin: 10px 0;
-  padding: 10px 0;
-  font-size: 80px;
+.content-container .link0,.link1,.link2 a {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  font-size: 20px;
   font-family: sans-serif;
   font-weight: 900;
   text-decoration: none;
   transition: font-weight 100ms;
+}
+
+.content-container .link0,.link1,.link2 {
+  display: inline-block;
+  background-color: antiquewhite;
+  border-radius: 50px;
+  width: 50%;
 }
 
 .content-container .links a:hover {
