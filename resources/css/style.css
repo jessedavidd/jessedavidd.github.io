@@ -13,18 +13,19 @@ body {
 }
 
 .brand-container {
-  font-family: 'Abril Fatface', serif;
+  font-family: 'Lora', serif;
+  margin: -20px 0 -30px 20px;
 }
 
 .brand-container h1 {
   font-size: 120px;
-  margin: -20px 0 0 20px;
+  font-weight: 600;
+  font-style: italic;
 }
 
 .content-container {
   display: block;
   position: absolute;
-  width: 100%;
   top: 50%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
@@ -50,13 +51,19 @@ body {
 }
 
 .quote-container {
-  font-family: 'Work Sans', serif;
-  font-weight: bold;
+  font-family: 'Lora', serif;
+  font-weight: 400;
   text-align: left;
   position: absolute;
   bottom: 0;
   right: 0;
-  margin: 0 30px 20px 0;
+  margin: -30px 30px 20px 0;
+}
+
+.quote-container #cursive {
+  font-family: inherit;
+  font-weight: 500;
+  font-style: italic;
 }
 
 .quote-container h3 {
@@ -74,4 +81,5 @@ body {
 img {
   width: 300px;
   margin: 40px 15%;
+  border-radius: 100%;
 }
