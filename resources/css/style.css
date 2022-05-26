@@ -6,6 +6,8 @@ body {
 .main-container {
   background-color: #000;
   color: #eee;
+  width: 100%;
+  height: 100vh;
 }
 
 .brand-container {
@@ -13,7 +15,7 @@ body {
   font-weight: bolder;
   font-size: 70px;
   width: 100%;
-  margin: -10px 0 0 10px;
+  margin: -10px 0 -10px 10px;
 }
 
 .brand-container h1 {
@@ -34,8 +36,8 @@ body {
 .content-container .links a {
   display: block;
   color: #eee;
-  margin: 10px;
-  padding: 10px 20px;
+  margin: 10px 0;
+  padding: 10px 0;
   font-size: 80px;
   font-family: sans-serif;
   font-weight: 900;
