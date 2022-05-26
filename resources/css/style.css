@@ -9,10 +9,9 @@ body {
 }
 
 .brand-container {
-  display: inline-block;
   font-family: sans-serif;
   font-weight: bolder;
-  font-size: 50px;
+  font-size: 70px;
   width: 100%;
 }
 
@@ -21,19 +20,16 @@ body {
 }
 
 .slogan-container {
-  display: inline-block;
   font-family: sans-serif;
   font-weight: bold;
   width: 100%;
 }
 
 .content-container {
-  width: 100%; 
-  margin: 0 auto;
+  width: 100%;
 }
 
 .content-container .links a {
-  text-align: center;
   color: #fff;
   margin: 10px;
   padding: 10px 20px;
@@ -42,7 +38,7 @@ body {
   font-family: sans-serif;
   font-weight: 900;
   text-decoration: none;
-  transition: box-shadow 100ms;
+  transition: font-weight 100ms;
 }
 
 .content-container .links a:hover {
