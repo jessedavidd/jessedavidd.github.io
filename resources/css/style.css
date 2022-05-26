@@ -16,6 +16,7 @@ body {
   color: #fff;
   display: inline-block;
   border-radius: 50px;
+  width: 50%;
 }
 
 .content-container .link0,.link1,.link2 a {
