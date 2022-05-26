@@ -12,27 +12,38 @@ body {
   bottom: 0;
   left: 0;
   overflow: auto;
+  border: solid 4px #000;
 }
 
 .brand-container {
   font-family: sans-serif;
   font-weight: bold;
   width: 100%;
-  margin: 10px;
+  border-bottom: solid 2px #000;
 }
 
 .brand-container h1 {
   font-size: 80px;
+  margin: -50px 
+}
+
+.slogan-container {
+  font-family: sans-serif;
+  text-align: center;
+  width: 100%;
+  padding: 20px 0;
+  border-bottom: solid 2 #000;
 }
 
 .content-container {
+  width: 100%; 
   margin: 0 auto;
 }
 
 .links a {
   text-align: center;
   display: inline-block;
-  color: #090a0a;
+  color: #fff;
   margin: 10px;
   padding: 10px 20px;
   background-color: #000;
@@ -46,9 +57,4 @@ body {
 
 .links a:hover {
   box-shadow: 10px 10px #14C38E;
-}
-
-img {
-  width: 300px;
-  margin: 40px 15%;
 }
