@@ -26,6 +26,7 @@ body {
 .content-container {
   display: block;
   position: absolute;
+  width: 100%;
   top: 50%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
@@ -77,6 +78,6 @@ body {
 }
 
 img {
-  width: 350px;
+  width: 300px;
   margin: 40px 15%;
 }
