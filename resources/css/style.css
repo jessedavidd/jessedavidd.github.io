@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 100vh;
+  min-height: 95vh;
   background-color: #24283b;
   border: solid 30px white;
 }
@@ -19,7 +19,7 @@ body {
 .logo {
   display: inline-block;
   color: #f7768e;
-  font-family:'Times New Roman', Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: italic;
   font-weight: bolder;
   margin: 20px;
@@ -43,12 +43,13 @@ body {
 }
 
 .links {
-  width: 100%;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .links .link0,.link1,.link2 {
-  padding: 5px;
+  padding: 10px;
   margin: 10px;
   display: inline-block;
   border: solid 4px #eee;
@@ -57,7 +58,7 @@ body {
 .links .link0,.link1,.link2 a {
   color: #eee;
   text-decoration: underline;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
 
