@@ -1,16 +1,31 @@
 body {
   margin: 0;
   padding: 0;
-}
-
-.main-container {
-  color: #000;
-  background-color: #eee;
   width: 100%;
   height: 100vh;
+  background-color: blueviolet;
+  border: solid 10px white;
 }
 
-.brand-container {
+.main {
+  color: #000;
+}
+
+.header {
+  background-color: aquamarine;
+  width: 100%;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.slogan {
+  display: inline-block;
+}
+
+.links .link0,.link1,.link2 {
+  color: #000;
 }
 
 .links .link0,.link1,.link2 a {
