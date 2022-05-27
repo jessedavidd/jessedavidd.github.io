@@ -61,7 +61,7 @@ a {
 }
 
 .links .link0,.link1,.link2 {
-  padding: 20px;
+  margin: 20px;
   display: inline-block;
   border: solid 4px #eee;
 }
