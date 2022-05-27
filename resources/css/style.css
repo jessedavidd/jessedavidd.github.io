@@ -21,7 +21,7 @@ body {
 }
 
 .slogan {
-  display: inline-block;
+  float: right;
 }
 
 .links .link0,.link1,.link2 {
