@@ -4,7 +4,7 @@ body {
   min-height: 97vh;
   background-color: #121212;
   color: #eee;
-  border: solid 20px white;
+  border: solid 20px #fff;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -37,7 +37,7 @@ td {
 .logo {
   display: inline-block;
   margin: 0 0 0 40px;
-  background-color: white;
+  background-color: #fff;
   color: #121212;
 }
 
@@ -63,10 +63,20 @@ td {
 }
 
 #source {
-  padding: 2px 4px;
-  margin: 5px;
+  margin: 10px auto;
+  width: 50px;
+  background-color: #645dd7;
+  padding: 15px;
+  box-shadow: 5px 5px #292929;
+  transition: box-shadow 200ms;
+  cursor: pointer;
 }
 
 #source a{
-  color: #4ea8de;
+  color: #eee;
+  text-decoration: none;
+  font-weight: bold;
 }
+
+#source:hover {
+  box-shadow: 10px 10px #292929;
