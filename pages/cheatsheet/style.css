@@ -76,6 +76,7 @@ td {
   color: #eee;
   text-decoration: none;
   font-weight: bold;
+  margin-left: -1px;
 }
 
 #source:hover {
