@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimalist cheatsheet</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div class="main">
+      <div class="header">
+        <div class="logo">
+          <h1>Minimalist<br>cheatsheet</h1>
+        </div>
+      </div>
+      <div class="section">
+        <div class="title">
+          <h2>CSS</h2>
+          <h3>Positions</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Property</th>
+              <th>Value</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span id="code">postition</span></td>
+              <td><span id="code">static</span></td>
+              <td>The element is positioned according to the normal flow of the document. The <span id="code">top</span>, <span id="code">right</span>, <span id="code">bottom</span>, <span id="code">left</span>, and z-index properties have no effect. This is the default value.</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td><span id="code">relative</span></td>
+              <td>The element is positioned according to the normal flow of the document, and then offset <em>relative to itself</em> based on the values of <span id="code">top</span>, <span id="code">right</span>, <span id="code">bottom</span>, and <span id="code">left</span>. The offset does not affect the position of any other elements; thus the space given for the element in the page layout is the same as if position were static.  <br>This value creates a new stacking context when the value of <span id="code">z-index</span> is not <span id="code">auto</span>. Its effect on table-*-group, <span id="code">table-row</span>, <span id="code">table-column</span>, <span id="code">table-cell</span>, and <span id="code">table-caption</span> elements is undefined.</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td><span id="code">absolute</span></td>
+              <td>The element is removed from the normal document flow, and no space is created for the element in the page layout.  It is positioned relative to its closest positioned ancestor, if any; otherwise, it is placed relative to the initial containing block.  Its final position is determined by the values of <span id="code">top</span>, <span id="code">right</span>, <span id="code">bottom</span>, <span id="code">left</span>. <br>This value creates a new stacking context when the value of z-index is not auto.  The margins of absolutely positioned boxes do not collapse with other margins.</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td><span id="code">fixed</span></td>
+              <td>The element is removed from the normal document flow, and no space is created for the element in the page layout. It is positioned relative to the initial containing block established by the viewport, except when one of its ancestors has a <span id="code">transform</span>, <span id="code">perspective</span>, <span id="code">filter</span> property set to something other than <span id="code">none</span> (see the CSS Transforms Spec), in which case that ancestor behaves as the containing block. (Note that there are browser inconsistencies with perspective and filter contributing to containing block formation.) Its final position is determined by the values of <span id="code">top</span>, <span id="code">right</span>, <span id="code">bottom</span>, <span id="code">left</span>.  <br>This value always creates a new stacking context. In printed documents, the element is placed in the same position on <em>every</em> page.</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td><span id="code">sticky</span></td>
+              <td>The element is positioned according to the normal flow of the document, and then offset relative to its nearest scrolling ancestor and containing block (nearest block-level ancestor), including table-related elements, based on the values of <span id="code">top</span>, <span id="code">right</span>, <span id="code">bottom</span>, <span id="code">left</span>. The offset does not affect the position of any other elements. This value always creates a new stacking context. <br>Note that a sticky element "sticks" to its nearest ancestor that has a "scrolling mechanism" (created when <span id="code">overflow</span> is <span id="code">hidden</span>, <span id="code">scroll</span>, <span id="code">auto</span>, or <span id="code">overlay</span>), even if that ancestor isn't the nearest actually scrolling ancestor.
+          </tbody>
+        </table>
+        <div id="source">
+          <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/position">Source: https://developer.mozilla.org/en-US/docs/Web/CSS/position</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
