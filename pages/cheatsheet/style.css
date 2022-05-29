@@ -62,7 +62,7 @@ td {
   padding: 1px 2px;
 }
 
-#source {
+.external-link {
   margin: 10px auto;
   width: 50px;
   background-color: #645dd7;
@@ -72,12 +72,12 @@ td {
   cursor: pointer;
 }
 
-#source a{
+.external-link a{
   color: #eee;
   text-decoration: none;
   font-weight: bold;
   margin-left: -1px;
 }
 
-#source:hover {
+.external-link:hover {
   box-shadow: 10px 10px #292929;
