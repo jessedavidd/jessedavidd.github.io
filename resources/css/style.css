@@ -147,7 +147,7 @@ td {
   display: inline-block;
   width: 200px;
   height: 200px;
-  margin: 20px;
+  margin: 15px;
   font-weight: 600;
   padding: 30px;
   box-shadow: 5px 5px #1f1f1f;
@@ -171,4 +171,14 @@ td {
 }
 #c5 {
   background-color: #eeeeee;
+}
+
+#roboto-slab {
+  font-family: 'Roboto Slab', serif;
+}
+#roboto {
+  font-family: 'Roboto', sans-serif;
+}
+#roboto-mono {
+  font-family: 'Roboto Mono', monospace;
 }
